@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranquei</title>
+   <link rel="stylesheet" href="tranquei.css">
+</head>
+<body onload="contaDias()">
+    <header>
+        
+        Estamos há
+        <p id="contDias">00</p>
+        dias sem ter vontade de trancar a faculdade
+        <p>Nosso record é de <spam id="contRecord">00</spam> dias</p>
+        
+    </header>
+    
+    <section id="listaDias">
+        <b>Dias em que trancamos:</b>
+        <select id="diasPulados" onchange="daMotivo()">
+            <option value="default">??/??/??</option>
+            <option value="data">05/03/20</option>
+            <option value="data">28/08/20</option>
+            <option value="data">28/08/20</option>
+         </select>
+        <p id="textoMotivo">Escolha um dos dias em que pulamos</p>
+    </section>
+
+    <footer>
+        <p>&copy; Yuri Garcia Campos</p>
+    </footer>
+
+    <script src="tranquei.js"></script>
+</body>
+</html>
