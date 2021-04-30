@@ -17,6 +17,10 @@ function daMotivo()
     case 3:
       document.getElementById("textoMotivo").innerHTML = "trabalho de implementação de minimização de DFA ta complexo";
       break;       
+      
+    case 4:
+      document.getElementById("textoMotivo").innerHTML = "A prova de IPE ta impossivel, que deus nos ajude";
+      break;    
   }
 }
 
@@ -41,7 +45,7 @@ function contaDias()
 
 function contRecord(contDias)
 {
-  var record=176
+  var record=245
   
   if(contDias>record)
   {
