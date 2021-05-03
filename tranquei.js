@@ -32,7 +32,7 @@ function contaDias()
   var days = hours * 24;
   var years = days * 365;
 
-  var ultimoPulo = new Date(2021,4,30,14,0,0);
+  var ultimoPulo = new Date(2021,3,30,14,0,0);//ano,mes,dia,hora,minuto,segundo   ----   janeiro = 0
   var hoje = new Date();
   var Tultimo = ultimoPulo.getTime();
   var Thoje = hoje.getTime();
